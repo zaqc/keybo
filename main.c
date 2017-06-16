@@ -1,14 +1,3 @@
-/* MAIN.C file
- * Серег, одобрение получено. Телефон Лены 9O3-68шесть-40-6 четыре
- * Copyright (c) 2002-2005 STMicroelectronics
- */
- /*
-	Tumi Bhaja re Mana
-	Tumi Japa re Mana
-	Om Shri Ram Jaya Ram
-	Japa re Mana
-*/
-
 #include <STM8S003K3.h>
 
 #define	DISP_CS_n(a)	if(!a) PA_ODR &= ~0x08; else PA_ODR |= 0x08
